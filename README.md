@@ -49,3 +49,6 @@ Where p.Title=pm.Продукция and m.Title=pm.[Наименование м�
 insert into  ProductType(Title) 
     select distinct [Тип продукции] from products_k_import
 ```
+
+### UseCase
+![UseCase](./usecase/UseCase.png)
