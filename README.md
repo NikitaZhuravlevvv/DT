@@ -33,6 +33,10 @@ Where PT.Title=PAI.[Тип продукции]
 ```sql
 insert into [dbo].[ProductMaterial]([ProductID],[MaterialID],Count)
 select p.id,m.id,[Необходимое количество материала]
+
+
+### UseCase
+![UseCase](./usecase/UseCase.png)
 FROM [dbo].[productmaterial_k_import] pm,
 Material M,
 Product P
